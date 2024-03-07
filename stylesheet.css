@@ -1,0 +1,91 @@
+@font-face {
+    font-family: fonte;
+    src: url(porsche.ttf)
+}
+
+body {
+    background: rgb(163, 54, 54);
+    background: linear-gradient(0deg, rgba(163, 54, 54, 1) 4%, rgba(0, 0, 0, 1) 40%);
+    margin: 0;
+    padding-bottom: 80px;
+
+}
+
+
+.marca {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 30px;
+    font-family: fonte;
+    text-align: center;
+    font-size: x-large;
+}
+
+.navegador {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    position: sticky;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: none;
+    transition: 0.7s;
+    color: red;
+}
+
+.modelo {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    width: 300px;
+}
+
+.T {
+    color: red;
+}
+
+.focus {
+    text-decoration: underline red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carro {
+    width: 80%;
+}
+
+.imagem {
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.espec {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.paragrafo {
+    text-align: center;
+}
